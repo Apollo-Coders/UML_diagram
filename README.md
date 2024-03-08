@@ -1,5 +1,5 @@
 # Diagrama UML
-## Diagrama UML de casos de uso
+## Diagrama UML de Casos de Uso
 <img src="./Apollo - use Case.png"/>
 
 Em nosso diagrama de casos de uso, existirá duas figuras, o do visitante e o do usuário cadastrado, os casos se definem em acesso a páginas e funções, sendo as páginas:
@@ -20,7 +20,7 @@ E funções como:
 O usuário visitante tem acesso a HomePage, a tela de criar conta e a de login.
 Já o usuário cadastrado tem acesso a todas as telas.
 
-## Diagrama UML de classes
+## Diagrama UML de Classes
 <img src="Apollo - Diagrama UML.png"/>
 
 Nosso Diagrama de classes representa conceitos e abstrações de funções e atributos que os elementos que irão compor nosso projeto precisarão.
@@ -41,3 +41,9 @@ Invoice: É a classe que armazena as contas de cartão de usuário, terá o tota
 Transactions: São as transações do sistema, tendo seu valor, data, descrição, tipo (transferência, pix, crédito) e o "to" e "from", "to" seria para o caso de uma transação de saída, uma transferência da sua conta para outra por exemplo, "to"seria então a conta destino, já o "from" é no caso de uma transação de entrada, sendo assim o "from" seria a conta de origem.
 
 Token: é uma classe estática que servirá apenas para gerar e validar o token de um usuário a fim de manter a segurança da aplicação e podermos validar se aquele usuário tem acesso aquela função
+
+## Diagrama UML do Banco de Dados
+<img src="Apollo - UML DB.png"/>
+
+Nesse diagrama é demostrado a tradução do diagrama de classes em tabelas de banco com suas relações.
+Mostrando as relações através de foreign keys e os id's como primary keys.
